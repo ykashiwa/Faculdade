@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Simples com CSS</title>
+    <style>
+        /* 1. Fundo da página com cor suave */
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* 2. Estilização do título */
+        h1 {
+            color: #2e8b57;
+            text-align: center;
+        }
+
+        /* 3. Parágrafo com fonte maior e texto justificado */
+        p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* 4. Lista com espaçamento maior */
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* 5. Imagem com bordas arredondadas e tamanho adequado */
+        img {
+            border-radius: 10px;
+            width: 400px;
+            height: auto;
+        }
+
+        /* 6. Estilo para tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #999;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #dcdcdc;
+        }
+
+        /* 7. Link com efeito hover */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Yudi Kashiwa</h1>
+
+    <p>Olá! Meu nome é Yudi Kashiwa, tenho 27 anos, moro em São Paulo e sou apaixonado por tecnologia, jogos e cultura japonesa. Gosto de aprender coisas no-vas e explorar o mundo digital.</p>
+
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Assistir animes</li>
+        <li>Jogos Online</li>
+        <li>Viajar e conhecer novas culturas</li>
+    </ul>
+
+    <h3>Imagem de um Hobby</h3>
+    <img src="https://marinhoturismobuzios.com.br/wp-content/uploads/2018/10/viagem-internacional-1.jpg">
+
+    <h2>Países que gostaria de visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="https://flagcdn.com/w320/jp.png" alt="Bandeira do Japão" width="100"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="https://flagcdn.com/w320/it.png" alt="Bandeira da Itália" width="100"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="https://flagcdn.com/w320/ca.png" alt="Bandeira do Canadá" width="100"></td>
+        </tr>
+    </table>
+
+    <p>Para mais conteúdo interessante sobre tecnologia, acesse o site do <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>.</p>
+
+</body>
+</html>
