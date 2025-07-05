@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Simples - Meu Perfil</title>
+</head>
+<body>
+    <!-- 1. Título principal -->
+    <h1>Yudi Kashiwa</h1>
+
+    <!-- 2. Parágrafo com autobiografia -->
+    <p>Olá! Meu nome é Yudi Kashiwa, tenho 27 anos, moro em São Paulo e sou apaixonado por tecnologia, jogos e cultura japonesa. Gosto de aprender coisas no-vas e explorar o mundo digital.</p>
+
+    <!-- 3. Lista não ordenada com hobbies -->
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Assistir animes</li>
+        <li>Jogos Online</li>
+        <li>Viajar e conhecer novas culturas</li>
+    </ul>
+
+    <!-- 4. Imagem representando um hobby -->
+    <h3>Imagem de um Hobby</h3>
+    <img src="https://marinhoturismobuzios.com.br/wp-content/uploads/2018/10/viagem-internacional-1.jpg">
+
+    <!-- 5. Tabela com países que gostaria de visitar -->
+    <h2>Países que gostaria de visitar</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="https://flagcdn.com/w320/jp.png" alt="Bandeira do Japão" width="100"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="https://flagcdn.com/w320/it.png" alt="Bandeira da Itália" width="100"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="https://flagcdn.com/w320/ca.png" alt="Bandeira do Canadá" width="100"></td>
+        </tr>
+    </table>
+
+    <!-- 6. Link para um site de interesse -->
+    <p>Para mais conteúdo interessante sobre tecnologia, acesse o site do <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>.</p>
+</body>
+</html>
