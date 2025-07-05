@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página com Interatividade</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #2e8b57;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+            width: 400px;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #999;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #dcdcdc;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff4500;
+        }
+
+        #mensagem {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #4b0082;
+        }
+
+        #botaoMensagem {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #botaoMensagem:hover {
+            background-color: #246b45;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Yudi Kashiwa</h1>
+
+    <p>Olá! Meu nome é Yudi Kashiwa, tenho 27 anos, moro em São Paulo e sou apaixonado por tecnologia, jogos e cultura japonesa. Gosto de aprender coisas no-vas e explorar o mundo digital.</p>
+
+    <!-- Botão para interação -->
+    <button id="botaoMensagem">Clique para ver uma mensagem!</button>
+    <div id="mensagem"></div>
+
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Assistir animes</li>
+        <li>Jogos online</li>
+        <li>Viajar e conhecer novas culturas</li>
+    </ul>
+
+    <h3>Imagem de um Hobby</h3>
+    <img src="https://marinhoturismobuzios.com.br/wp-content/uploads/2018/10/viagem-internacional-1.jpg">
+
+    <h2>Países que gostaria de visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="https://flagcdn.com/w320/jp.png" alt="Bandeira do Japão" width="100"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="https://flagcdn.com/w320/it.png" alt="Bandeira da Itália" width="100"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="https://flagcdn.com/w320/ca.png" alt="Bandeira do Canadá" width="100"></td>
+        </tr>
+    </table>
+
+    <p>Para mais conteúdo interessante sobre tecnologia, acesse o site do <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>.</p>
+
+    <!-- Script JavaScript -->
+    <script>
+        document.getElementById("botaoMensagem").addEventListener("click", func-tion() {
+            const mensagemDiv = document.getElementById("mensagem");
+            mensagemDiv.textContent = "🌟 Continue aprendendo e nunca desista dos seus sonhos!";
+        });
+    </script>
+
+</body>
+</html>
